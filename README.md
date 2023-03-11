@@ -32,7 +32,12 @@
 1. Launch the Azure Cloud Shell from the portal. To deploy to a resource group, enter the following command
 
 ```
-
 az group create --name MyResourceGroup --location westus
+```
 
+![image](https://user-images.githubusercontent.com/63562181/224485386-7b750324-b70d-4b21-aee1-25ea97895f08.png)
+
+2. To create an App service plan
+```
+az appservice plan create --resource-group MyResourceGroup --name MyPlan --sku S1
 ```
