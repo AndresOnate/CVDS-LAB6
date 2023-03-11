@@ -28,3 +28,9 @@
 
 
 ![image](https://user-images.githubusercontent.com/63562181/224485253-6ab20be4-caa9-4712-8626-04ae1af21215.png)
+
+1. Launch the Azure Cloud Shell from the portal. To deploy to a resource group, enter the following command
+
+'''
+az group create --name MyResourceGroup --location westus
+'''
