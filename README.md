@@ -41,3 +41,50 @@ az group create --name MyResourceGroup --location westus
 ```
 az appservice plan create --resource-group MyResourceGroup --name MyPlan --sku S1
 ```
+
+```
+Resource provider 'Microsoft.Web' used by this operation is not registered. We are registering for you.
+Registration succeeded.
+{
+  "elasticScaleEnabled": false,
+  "extendedLocation": null,
+  "freeOfferExpirationTime": null,
+  "geoRegion": "West US",
+  "hostingEnvironmentProfile": null,
+  "hyperV": false,
+  "id": "/subscriptions/172f5658-617b-47f3-8dab-0b902b6db63a/resourceGroups/MyResourceGroup/providers/Microsoft.Web/serverfarms/MyPlan",
+  "isSpot": false,
+  "isXenon": false,
+  "kind": "app",
+  "kubeEnvironmentProfile": null,
+  "location": "westus",
+  "maximumElasticWorkerCount": 1,
+  "maximumNumberOfWorkers": 0,
+  "name": "MyPlan",
+  "numberOfSites": 0,
+  "numberOfWorkers": 1,
+  "perSiteScaling": false,
+  "provisioningState": "Succeeded",
+  "reserved": false,
+  "resourceGroup": "MyResourceGroup",
+  "sku": {
+    "capabilities": null,
+    "capacity": 1,
+    "family": "S",
+    "locations": null,
+    "name": "S1",
+    "size": "S1",
+    "skuCapacity": null,
+    "tier": "Standard"
+  },
+  "spotExpirationTime": null,
+  "status": "Ready",
+  "subscription": "172f5658-617b-47f3-8dab-0b902b6db63a",
+  "tags": null,
+  "targetWorkerCount": 0,
+  "targetWorkerSizeId": 0,
+  "type": "Microsoft.Web/serverfarms",
+  "workerTierName": null,
+  "zoneRedundant": false
+}
+```
