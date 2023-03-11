@@ -92,3 +92,7 @@ Registration succeeded.
 ```
 az webapp create --resource-group MyResourceGroup --plan MyPlan --name MyUniqueAppName
 ```
+
+![image](https://user-images.githubusercontent.com/63562181/224485855-351bf482-624d-49a1-b744-b18610b54a40.png)
+
+Cambiamos MyUniqueAppName por OlayaOnate
