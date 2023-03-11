@@ -124,3 +124,9 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 
 
 ## Exercise 2: Updating the App Settings for the Web App
+
+1. Select Configuration. Set the Stack settings as shown in below image and click Save.
+
+![image](https://user-images.githubusercontent.com/63562181/224486528-eb565dfe-536c-40c3-986b-0adbf8b0c351.png)
+
+2. Select Overview and click Browse.
