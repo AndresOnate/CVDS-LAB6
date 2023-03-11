@@ -130,3 +130,7 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 ![image](https://user-images.githubusercontent.com/63562181/224486528-eb565dfe-536c-40c3-986b-0adbf8b0c351.png)
 
 2. Select Overview and click Browse.
+
+![image](https://user-images.githubusercontent.com/63562181/224486640-2c8cc974-856a-4927-abac-6299afaca768.png)
+
+![image](https://user-images.githubusercontent.com/63562181/224486654-790f278c-8088-49e7-a084-603ae81827f5.png)
