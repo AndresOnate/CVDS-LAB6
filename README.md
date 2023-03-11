@@ -110,4 +110,8 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 
 6. Select Properties. Save the Server name and Server admin login name to a notepad.
 
++ Mateo Olaya:
+  ServerName: onateolayaserver.mysql.database.azure.com
+  Admin: mysqldbuser@onateolayaserver
+
 
