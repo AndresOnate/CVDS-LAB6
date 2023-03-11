@@ -111,9 +111,13 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 6. Select Properties. Save the Server name and Server admin login name to a notepad.
 
 + Mateo Olaya:
-  ServerName: onateolayaserver.mysql.database.azure.com
-  Admin: mysqldbuser@onateolayaserver
+  - ServerName: onateolayaserver.mysql.database.azure.com
+  - Admin: mysqldbuser@onateolayaserver
 
 + Andrés Oñate
   - ServerName: `olayaonateserver.mysql.database.azure.com`
   - Admin: `mysqldbuser@olayaonateserver`
+
+7. Select Connection security. Enable Allow access to Azure services toggle and Save the changes. This provides access to Azure services for all the databases in your MySQL server.
+
+![image](https://user-images.githubusercontent.com/89365336/224486389-0b66f094-c076-456a-84a7-2e7ece7f170f.png)
