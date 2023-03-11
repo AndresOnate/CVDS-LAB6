@@ -143,3 +143,5 @@ jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requ
 ![image](https://user-images.githubusercontent.com/63562181/224487026-1d72eeba-4663-4c4e-8a9b-9d383f146cd9.png)
 
 ### Exercise 3: Deploy the changes to Web App
+
+1. Select Pipelines | Pipelines. Choose the pipeline MyShuttleBuild and click Edit Pipeline to view the build definition.
