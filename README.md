@@ -121,3 +121,6 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 7. Select Connection security. Enable Allow access to Azure services toggle and Save the changes. This provides access to Azure services for all the databases in your MySQL server.
 
 ![image](https://user-images.githubusercontent.com/89365336/224486389-0b66f094-c076-456a-84a7-2e7ece7f170f.png)
+
+
+## Exercise 2: Updating the App Settings for the Web App
