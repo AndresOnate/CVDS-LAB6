@@ -101,3 +101,6 @@ Cambiamos MyUniqueAppName por OlayaOnate
 ```
 az mysql server create --resource-group MyResourceGroup --name mysqldbserver --admin-user mysqldbuser --admin-password P2ssw0rd@123 --sku-name GP_Gen5_2
 ```
+
+![image](https://user-images.githubusercontent.com/89365336/224486013-4015c58a-9835-4034-bc13-99790f76860f.png)
+
