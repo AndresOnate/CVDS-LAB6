@@ -32,5 +32,7 @@
 1. Launch the Azure Cloud Shell from the portal. To deploy to a resource group, enter the following command
 
 '''
+
 az group create --name MyResourceGroup --location westus
+
 '''
