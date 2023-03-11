@@ -88,3 +88,7 @@ Registration succeeded.
   "zoneRedundant": false
 }
 ```
+3. Create the web app with a unique app name
+```
+az webapp create --resource-group MyResourceGroup --plan MyPlan --name MyUniqueAppName
+```
