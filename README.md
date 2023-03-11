@@ -139,3 +139,6 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 ```
 jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requireSSL=false&autoReconnect=true&user=mysqldbuser@olayaonateserver&password=P2ssw0rd@123
 ```
+
+![image](https://user-images.githubusercontent.com/63562181/224487026-1d72eeba-4663-4c4e-8a9b-9d383f146cd9.png)
+
