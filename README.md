@@ -15,3 +15,6 @@
 
 4. 
 
+
+### Exercise 1: Creating Azure Web App and MySQL database
+
