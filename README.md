@@ -104,3 +104,10 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 
 ![image](https://user-images.githubusercontent.com/89365336/224486013-4015c58a-9835-4034-bc13-99790f76860f.png)
 
+5.Navigate to the resource group that you have created. You should see a Azure Database for MySQL server provisioned. Select the database server.
+
+![image](https://user-images.githubusercontent.com/63562181/224486156-7292541d-ce0d-4a6e-92b6-1bac601ffa6c.png)
+
+6. Select Properties. Save the Server name and Server admin login name to a notepad.
+
+
