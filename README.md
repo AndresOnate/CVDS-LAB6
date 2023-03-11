@@ -96,3 +96,8 @@ az webapp create --resource-group MyResourceGroup --plan MyPlan --name MyUniqueA
 ![image](https://user-images.githubusercontent.com/63562181/224485855-351bf482-624d-49a1-b744-b18610b54a40.png)
 
 Cambiamos MyUniqueAppName por OlayaOnate
+
+4. Finally, create the MySQL server with a unique server name.
+```
+az mysql server create --resource-group MyResourceGroup --name mysqldbserver --admin-user mysqldbuser --admin-password P2ssw0rd@123 --sku-name GP_Gen5_2
+```
