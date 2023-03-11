@@ -114,4 +114,6 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
   ServerName: onateolayaserver.mysql.database.azure.com
   Admin: mysqldbuser@onateolayaserver
 
-
++ Andrés Oñate
+  - ServerName: `olayaonateserver.mysql.database.azure.com`
+  - Admin: `mysqldbuser@olayaonateserver`
