@@ -134,3 +134,5 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 ![image](https://user-images.githubusercontent.com/63562181/224486640-2c8cc974-856a-4927-abac-6299afaca768.png)
 
 ![image](https://user-images.githubusercontent.com/63562181/224486654-790f278c-8088-49e7-a084-603ae81827f5.png)
+
+3. From the Azure portal, select the Web app you provisioned. Go to Configuration | Application settings | Connection strings and click on + New connection string.
