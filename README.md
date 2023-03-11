@@ -18,3 +18,6 @@
 
 ### Exercise 1: Creating Azure Web App and MySQL database
 
+
+![image](https://user-images.githubusercontent.com/89365336/224484927-9f2eeb1e-0b47-4d0a-a052-2b18519c6e59.png)
+
