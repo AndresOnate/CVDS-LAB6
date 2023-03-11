@@ -136,3 +136,6 @@ az mysql server create --resource-group MyResourceGroup --name mysqldbserver --a
 ![image](https://user-images.githubusercontent.com/63562181/224486654-790f278c-8088-49e7-a084-603ae81827f5.png)
 
 3. From the Azure portal, select the Web app you provisioned. Go to Configuration | Application settings | Connection strings and click on + New connection string.
+```
+jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requireSSL=false&autoReconnect=true&user=mysqldbuser@olayaonateserver&password=P2ssw0rd@123
+```
