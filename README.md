@@ -154,3 +154,5 @@ jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requ
 ![image](https://user-images.githubusercontent.com/63562181/224487359-8e82b010-544b-4d44-8358-04bc3b6fbf9d.png)
 
 ![image](https://user-images.githubusercontent.com/63562181/224487436-9a0d73c8-b601-4a97-9ed7-f61e0ff2e9e6.png)
+
+Este paso nos generó un error, se procede a completar el formulario asociado al problema.
