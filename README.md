@@ -183,8 +183,17 @@ Esperamos de 2 a 3 dias despues de enviar el formulario y reintentamos nuevament
 
 ![image](https://user-images.githubusercontent.com/89365336/225789552-20a0e53a-0730-4218-943a-8b9760e902e1.png)
 
+![image](https://user-images.githubusercontent.com/63562181/225794458-6f38fbc8-327e-4f85-ab9d-81b85b88b134.png)
+
+![image](https://user-images.githubusercontent.com/63562181/225794532-d6782763-5ede-4b32-855d-72cb2ae4566e.png)
+
 9. Wait for the release to complete. Then navigate to the Web App and select the URL from the overview blade. Add /myshuttledev context to the URL. For instance - http://myshuttle1.azurewebsites.net/myshuttledev
 
+![image](https://user-images.githubusercontent.com/63562181/225794584-e72bb917-26f5-4512-b1b2-e515b21036aa.png)
 
+10. Seleccione Iniciar sesión e intente iniciar sesión en el sitio con cualquiera de las siguientes credenciales.
 
+![image](https://user-images.githubusercontent.com/63562181/225794808-694b8b67-4c32-4b80-bcf5-af52516627e5.png)
+
+11. Si la base de datos se configuró correctamente y los parámetros de conexión son válidos, debería poder iniciar sesión en el portal.
 
