@@ -157,6 +157,34 @@ jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requ
 
 Este paso nos generó un error, se procede a completar el formulario asociado al problema.
 
+Esperamos de 2 a 3 dias despues de enviar el formulario y reintentamos nuevamente 
+
+![image](https://user-images.githubusercontent.com/89365336/225787340-421a1342-3a6b-447a-a2da-67d462df6be4.png)
+
 3. Once the build succeeds, select Releases under Pipelines.
 
 4. Select MyShuttle Release and click Edit to open the release definition.
+
+![image](https://user-images.githubusercontent.com/89365336/225787412-abb48ede-8d76-4bb8-bd01-da3bf7782468.png)
+
+5. Make sure the artifact is pointing to the Build artifact as shown below. If you are following this lab from Jenkins hands-on-lab, make sure the artifact is pointing to Jenkins.
+
+![image](https://user-images.githubusercontent.com/89365336/225787741-77f007d7-3c3a-44f2-be55-ce6aa2984628.png)
+
+6. Click Tasks. Select Execute Azure MySQL : SqlTaskFile task and provide the following details.
+
+![image](https://user-images.githubusercontent.com/89365336/225788158-9392a8c0-7947-48b3-a06f-ceee9ed5b9a7.png)
+
+7. Select the Deploy Azure App Service task, choose the Azure subscription details and select App Service name from the dropdown.
+
+![image](https://user-images.githubusercontent.com/89365336/225788592-f6e8da53-a968-436d-be88-1c0d08f4bade.png)
+
+8. Click on Save and then +Release | Create Release to start a new release
+
+![image](https://user-images.githubusercontent.com/89365336/225789552-20a0e53a-0730-4218-943a-8b9760e902e1.png)
+
+9. Wait for the release to complete. Then navigate to the Web App and select the URL from the overview blade. Add /myshuttledev context to the URL. For instance - http://myshuttle1.azurewebsites.net/myshuttledev
+
+
+
+
