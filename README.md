@@ -156,3 +156,7 @@ jdbc:mysql://olayaonateserver.mysql.database.azure.com:3306/alm?useSSL=true&requ
 ![image](https://user-images.githubusercontent.com/63562181/224487436-9a0d73c8-b601-4a97-9ed7-f61e0ff2e9e6.png)
 
 Este paso nos generó un error, se procede a completar el formulario asociado al problema.
+
+3. Once the build succeeds, select Releases under Pipelines.
+
+4. Select MyShuttle Release and click Edit to open the release definition.
